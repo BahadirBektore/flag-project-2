@@ -1,0 +1,30 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+div {
+    width: 700px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+div > div {
+      background-color: #BC002D;
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      top: 100px;
+      left: 250px;
+}
